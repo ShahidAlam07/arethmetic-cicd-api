@@ -2,7 +2,7 @@ http:
   port: "8081"
   
 log:
-  message: "Welcome to ci/cd Process 3"
+  message: "Welcome to ci/cd Process 4"
   
 deployment:
   app:
