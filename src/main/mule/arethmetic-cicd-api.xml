@@ -11,7 +11,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	<configuration-properties doc:name="Configuration properties" doc:id="7e4e8ae4-1fe4-4ab2-943f-5f2ff13c58ea" file="myconfig-dev.yaml" />
 	<flow name="arethmetic-proFlow" doc:id="fd3305ea-fffe-4283-89a9-10f42aee07bd" >
 		<http:listener doc:name="Listener" doc:id="92bf2fee-cb4c-4039-bbbd-8b0ce2c34d3c" config-ref="HTTP_Listener_config" path="/arethmetic"/>
-		<logger level="INFO" doc:name="Logger" doc:id="95a62b47-e184-410e-8add-e06f26215ede" message="-------------Arithmetic Api Invoked  -------------------"/>
+		<logger level="INFO" doc:name="Logger" doc:id="95a62b47-e184-410e-8add-e06f26215ede" message="-------------Arithmetic Api Invoked  ------******"/>
 		<set-variable value="#[attributes.queryParams.Num1]" doc:name="Set Variable" doc:id="b74d9c79-d9a5-48d0-93bb-8488f0ff402b" variableName="Num1"/>
 		<set-variable value="#[attributes.queryParams.Num2]" doc:name="Set Variable" doc:id="c6a12919-b66f-4534-9702-8bf51c003e78" variableName="Num2"/>
 		<ee:transform doc:name="Transform Message" doc:id="fcdb4cfd-d2bc-4684-8d61-b2298446c7e5" >
