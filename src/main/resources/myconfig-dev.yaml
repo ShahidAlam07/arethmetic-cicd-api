@@ -1,0 +1,15 @@
+http:
+  port: "8081"
+  
+log:
+  message: "Welcome to ci/cd Process"
+  
+deployment:
+  app:
+    runtime: "4.12.2"
+    
+  region: "us-east-1"
+  
+  workers: "1"
+  
+  workerType: "MICRO"
